@@ -119,15 +119,15 @@ app.get('/', function (req, res, next) {
 
 app.post('/messages/:id', function (req, res, next) {
   console.log(chalk.green(`${new Date()}: message received`))
-
   let id = req.params.id;
+  console.log(req.headers)
+  let payload = JSON.stringify(req.body);
   const index = devices.findIndex(deviceId => deviceId === id);
   if (index == -1)
     res.status(500).send(id + ' not provisioned');
   else {
-      let payload = JSON.stringify(req.body);
+      console.log(`size of receiced payload: ${payload.length}`)
       var message = new Message(payload);
-      console.log(`message size: ${payload.length}`)
       sender(id, message)
       res.status(200).send('POST message: ' + req.params.id);
     } 
