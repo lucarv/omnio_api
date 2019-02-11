@@ -125,7 +125,9 @@ app.post('/messages/:id', function (req, res, next) {
   if (index == -1)
     res.status(500).send(id + ' not provisioned');
   else {
-      var message = new Message(JSON.stringify(req.body));
+      let payload = JSON.stringify(req.body);
+      var message = new Message(payload);
+      console.log(`message size: ${payload.length}`)
       sender(id, message)
       res.status(200).send('POST message: ' + req.params.id);
     } 

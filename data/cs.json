@@ -1,3 +1,3 @@
 {
-    "cs": "<iot hub iothubowner connection string here>"
+    "cs": "HostName=connfaciothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=SuiC29KXCcfIAgzsI1ePRcBNyfw+ArA1Rnez9k1vZ4U="
 }
