@@ -1,4 +1,6 @@
 node_modules
+samples
+.gitignore
 .vscode
 .env
 npm-debug.log
