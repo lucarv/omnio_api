@@ -37,6 +37,7 @@ app.post('/messages/:id', function (req, res, next) {
   let id = req.params.id;
   let payload = JSON.stringify(req.body);
   console.log(`size of received payload: ${payload.length}`)
+  console.log(payload.substr(0,50))
   var message = new Message(payload);
   
   console.time('sending message took')
