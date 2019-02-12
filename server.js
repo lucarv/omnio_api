@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-  extended: true, limit: '300kb'
+  extended: true, limit: '400Kb'
 }));
 /* azure sdk */
 var Protocol = require('azure-iot-device-mqtt').Mqtt;
@@ -35,8 +35,6 @@ app.get('/', function (req, res, next) {
 app.post('/messages/:id', function (req, res, next) {
   console.log(chalk.green(`${new Date()}: message received from PLC`))
   let id = req.params.id;
-  console.log(req.headers);
-
   let payload = JSON.stringify(req.body);
   console.log(`size of received payload: ${payload.length}`)
   var message = new Message(payload);
@@ -53,16 +51,4 @@ app.post('/messages/:id', function (req, res, next) {
   }
   });
 
-  /*
-  const index = devices.findIndex(deviceId => deviceId === id);
-  if (index == -1)
-    res.status(500).send(id + ' not provisioned');
-  else {
-
-      sender(id, message)
-      res.status(200).send('POST message: ' + req.params.id);
-    } 
-    */
-})
-
-//main();
+});
