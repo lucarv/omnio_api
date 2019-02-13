@@ -5,9 +5,13 @@ require('dotenv').config()
 const express = require('express');
 var bodyParser = require('body-parser');
 const app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.json({
+  extended: true,
+  limit: '250Kb'
+}));
 app.use(bodyParser.urlencoded({
-  extended: true, limit: '400Kb'
+  extended: true,
+  limit: '250Kb'
 }));
 /* azure sdk */
 var Protocol = require('azure-iot-device-mqtt').Mqtt;
@@ -25,7 +29,7 @@ const port = 9999;
 
 // Start server and listen on http://localhost:8081/
 var server = app.listen(port, function () {
-  console.log("app listening at http://%s:%s", server.address().address, server.address().port)
+  console.log(chalk.green('api listening at http://%s:%s', server.address().address, server.address().port))
 });
 
 app.get('/', function (req, res, next) {
@@ -33,23 +37,26 @@ app.get('/', function (req, res, next) {
 });
 
 app.post('/messages/:id', function (req, res, next) {
-  console.log(chalk.green(`${new Date()}: message received from PLC`))
-  let id = req.params.id;
-  let payload = JSON.stringify(req.body);
-  console.log(`size of received payload: ${payload.length}`)
-  console.log(payload.substr(0,50))
-  var message = new Message(payload);
-  
-  console.time('sending message took')
+  console.log('----------------------------------------------------------------------------------------------------------------')
+  console.log(`*** ${new Date()}`);
+  let { id } = req.params
+  console.log(`*** content-type: ${req.headers["content-type"]}`);
 
+  let payload = JSON.stringify(req.body);
+  console.log(`*** size of received payload: ${payload.length}`)
+  var message = new Message(payload);
+
+  console.time(chalk.yellow('*** sending message took'))
   client.sendEvent(message, function (err) {
     if (err) {
-      console.error('Could not send: ' + err.toString());
+      console.error(chalk.red('*** Could not send: ' + err.toString()));
       res.status(500).send(err.toString());
-  } else {
-    console.timeEnd('sending message took')
-    res.status(200).send('POST message: ' + req.params.id);
-  }
+    } else {
+      console.timeEnd(chalk.yellow('*** sending message took'))
+      console.log('----------------------------------------------------------------------------------------------------------------')
+
+      res.status(200).send('POST message: ' + id);
+    }
   });
 
 });
