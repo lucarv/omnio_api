@@ -118,8 +118,10 @@ app.post('/messages/:id', function (req, res, next) {
   debug(`*** content-type: ${req.headers["content-type"]}`);
   if (!timerPrint) 
     console.time('*** prepare message took')
+  debug(slaveArray[0]);
   bufferValues(slaveArray);
   let filteredArray = filterValues(slaveArray)
+  debug(filteredArray[0]);
   let payload = JSON.stringify(filteredArray);
   if (!timerPrint) 
     console.timeEnd('*** prepare message took')
