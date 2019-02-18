@@ -1,7 +1,7 @@
 'use strict';
 require('dotenv').config()
 const debug = require('debug')('omnio-iothub-client')
-const timerPrint = process.env.timer;
+const timerPrint = (process.env.timer || false);
 
 /* express SDK and MW*/
 const express = require('express');
