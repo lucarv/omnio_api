@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "avsc": "^5.4.7",
     "azure-iot-common": "^1.9.3",
     "azure-iot-device": "^1.9.3",
     "azure-iot-device-mqtt": "^1.9.3",
@@ -19,6 +20,7 @@
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
     "dotenv": "^6.2.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "memory-streams": "^0.1.3"
   }
 }

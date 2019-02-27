@@ -1,0 +1,7 @@
+{
+    "name": "telemetry",
+    "type": "record",
+    "fields": [
+        { "name": "readings", "type": "array", "items": "json" }
+    ]
+}
