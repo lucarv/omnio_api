@@ -1,0 +1,235 @@
+2019-03-18T08:00:46.136Z: *******************************************
+2019-03-18T08:00:46.137Z: * Executing the Microsoft IOT Trace tool. *
+2019-03-18T08:00:46.137Z: *******************************************
+2019-03-18T08:00:46.138Z: 
+2019-03-18T08:00:46.138Z: --- Executing network tests ---
+2019-03-18T08:00:46.166Z: 
+2019-03-18T08:00:46.166Z: Starting DNS resolution for host 'www.microsoft.com'...
+2019-03-18T08:00:46.181Z: --> Successfully resolved DNS to 2.17.0.227.
+2019-03-18T08:00:46.181Z: "www.microsoft.com" using address: 2.17.0.227
+2019-03-18T08:00:46.181Z: 
+2019-03-18T08:00:46.181Z: Pinging IPV4 address '2.17.0.227'...
+2019-03-18T08:00:46.204Z: --> Successfully pinged 2.17.0.227
+2019-03-18T08:00:46.204Z: 
+2019-03-18T08:00:46.204Z: Sending https request to 'https://www.microsoft.com/'
+2019-03-18T08:00:46.300Z: --> Completed https request
+2019-03-18T08:01:24.714Z: *******************************************
+2019-03-18T08:01:24.715Z: * Executing the Microsoft IOT Trace tool. *
+2019-03-18T08:01:24.715Z: *******************************************
+2019-03-18T08:01:24.716Z: 
+2019-03-18T08:01:24.716Z: --- Executing network tests ---
+2019-03-18T08:01:24.742Z: 
+2019-03-18T08:01:24.742Z: Starting DNS resolution for host 'www.microsoft.com'...
+2019-03-18T08:01:24.754Z: --> Successfully resolved DNS to 2.17.0.227.
+2019-03-18T08:01:24.754Z: "www.microsoft.com" using address: 2.17.0.227
+2019-03-18T08:01:24.754Z: 
+2019-03-18T08:01:24.754Z: Pinging IPV4 address '2.17.0.227'...
+2019-03-18T08:01:24.775Z: --> Successfully pinged 2.17.0.227
+2019-03-18T08:01:24.776Z: 
+2019-03-18T08:01:24.776Z: Sending https request to 'https://www.microsoft.com/'
+2019-03-18T08:01:24.872Z: --> Completed https request
+2019-03-18T08:07:57.359Z: *******************************************
+2019-03-18T08:07:57.360Z: * Executing the Microsoft IOT Trace tool. *
+2019-03-18T08:07:57.360Z: *******************************************
+2019-03-18T08:07:57.361Z: 
+2019-03-18T08:07:57.361Z: --- Executing network tests ---
+2019-03-18T08:07:57.385Z: 
+2019-03-18T08:07:57.385Z: Starting DNS resolution for host 'www.microsoft.com'...
+2019-03-18T08:07:57.411Z: --> Successfully resolved DNS to 2.17.0.227.
+2019-03-18T08:07:57.411Z: "www.microsoft.com" using address: 2.17.0.227
+2019-03-18T08:07:57.412Z: 
+2019-03-18T08:07:57.412Z: Pinging IPV4 address '2.17.0.227'...
+2019-03-18T08:07:57.435Z: --> Successfully pinged 2.17.0.227
+2019-03-18T08:07:57.435Z: 
+2019-03-18T08:07:57.435Z: Sending https request to 'https://www.microsoft.com/'
+2019-03-18T08:07:57.536Z: --> Completed https request
+2019-03-18T08:08:37.292Z: *******************************************
+2019-03-18T08:08:37.293Z: * Executing the Microsoft IOT Trace tool. *
+2019-03-18T08:08:37.293Z: *******************************************
+2019-03-18T08:08:37.294Z: 
+2019-03-18T08:08:37.294Z: --- Executing network tests ---
+2019-03-18T08:08:37.314Z: 
+2019-03-18T08:08:37.314Z: Starting DNS resolution for host 'www.microsoft.com'...
+2019-03-18T08:08:37.326Z: --> Successfully resolved DNS to 2.17.0.227.
+2019-03-18T08:08:37.327Z: "www.microsoft.com" using address: 2.17.0.227
+2019-03-18T08:08:37.327Z: 
+2019-03-18T08:08:37.327Z: Pinging IPV4 address '2.17.0.227'...
+2019-03-18T08:08:37.349Z: --> Successfully pinged 2.17.0.227
+2019-03-18T08:08:37.349Z: 
+2019-03-18T08:08:37.349Z: Sending https request to 'https://www.microsoft.com/'
+2019-03-18T08:08:37.441Z: --> Completed https request
+2019-03-18T08:08:37.442Z: 
+2019-03-18T08:08:37.442Z: --- Executing IOT Hub tests ---
+2019-03-18T08:08:40.102Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.113Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.194Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.213Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.215Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.222Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.248Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.275Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.332Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.342Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.374Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.473Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.514Z: 
+2019-03-18T08:08:40.514Z: Starting AMQP Test...
+2019-03-18T08:08:40.754Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.783Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:40.786Z: Client connected, sending message
+2019-03-18T08:08:40.941Z: Service successfully received telemetry from client.
+2019-03-18T08:08:40.972Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:42.459Z: Service successfully received telemetry from client.
+2019-03-18T08:08:42.498Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:42.930Z: Service successfully received telemetry from client.
+2019-03-18T08:08:42.959Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:43.359Z: Service successfully received telemetry from client.
+2019-03-18T08:08:43.388Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:43.913Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:08:43.920Z: Service successfully received telemetry from client.
+2019-03-18T08:08:43.961Z: Command sent, status = MessageEnqueued
+2019-03-18T08:08:44.196Z: --> Successfully ran AMQP test.
+2019-03-18T08:08:44.196Z: 
+2019-03-18T08:08:44.196Z: Starting AMQP/WS Test...
+2019-03-18T08:08:44.402Z: Service successfully received telemetry from client.
+2019-03-18T08:08:44.430Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:44.524Z: Service successfully received telemetry from client.
+2019-03-18T08:08:44.554Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:44.668Z: Client connected, sending message
+2019-03-18T08:08:44.847Z: Service successfully received telemetry from client.
+2019-03-18T08:08:44.877Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:45.781Z: Service successfully received telemetry from client.
+2019-03-18T08:08:45.810Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:45.924Z: Service successfully received telemetry from client.
+2019-03-18T08:08:45.952Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:47.438Z: Service successfully received telemetry from client.
+2019-03-18T08:08:47.473Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:47.807Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:08:47.808Z: Service successfully received telemetry from client.
+2019-03-18T08:08:47.849Z: Command sent, status = MessageEnqueued
+2019-03-18T08:08:47.938Z: Service successfully received telemetry from client.
+2019-03-18T08:08:47.967Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:47.982Z: --> Successfully ran AMQP/WS test.
+2019-03-18T08:08:47.999Z: 
+2019-03-18T08:08:47.999Z: Starting HTTPS Test...
+2019-03-18T08:08:47.999Z: Client connected, sending message
+2019-03-18T08:08:48.412Z: Service successfully received telemetry from client.
+2019-03-18T08:08:48.442Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:49.405Z: Service successfully received telemetry from client.
+2019-03-18T08:08:49.433Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:49.552Z: Service successfully received telemetry from client.
+2019-03-18T08:08:49.580Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:49.805Z: Service successfully received telemetry from client.
+2019-03-18T08:08:49.835Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:50.792Z: Service successfully received telemetry from client.
+2019-03-18T08:08:50.823Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:50.940Z: Service successfully received telemetry from client.
+2019-03-18T08:08:50.980Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:51.298Z: Service successfully received telemetry from client.
+2019-03-18T08:08:51.299Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:08:51.339Z: Command sent, status = MessageEnqueued
+2019-03-18T08:08:52.262Z: --> Successfully ran HTTPS test.
+2019-03-18T08:08:52.280Z: 
+2019-03-18T08:08:52.280Z: Starting MQTT Test...
+2019-03-18T08:08:52.450Z: Service successfully received telemetry from client.
+2019-03-18T08:08:52.485Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:52.523Z: Client connected, sending message
+2019-03-18T08:08:52.932Z: Service successfully received telemetry from client.
+2019-03-18T08:08:52.960Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:53.374Z: Service successfully received telemetry from client.
+2019-03-18T08:08:53.404Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:54.395Z: Service successfully received telemetry from client.
+2019-03-18T08:08:54.425Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:54.542Z: Service successfully received telemetry from client.
+2019-03-18T08:08:54.577Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:54.977Z: Service successfully received telemetry from client.
+2019-03-18T08:08:55.155Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:55.580Z: Service successfully received telemetry from client.
+2019-03-18T08:08:55.582Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:08:55.624Z: Command sent, status = MessageEnqueued
+2019-03-18T08:08:55.652Z: --> Successfully ran MQTT test.
+2019-03-18T08:08:55.652Z: 
+2019-03-18T08:08:55.652Z: Starting MQTT/WS Test...
+2019-03-18T08:08:55.790Z: Service successfully received telemetry from client.
+2019-03-18T08:08:55.820Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:55.947Z: Service successfully received telemetry from client.
+2019-03-18T08:08:55.976Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:56.219Z: Client connected, sending message
+2019-03-18T08:08:57.499Z: Service successfully received telemetry from client.
+2019-03-18T08:08:57.562Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:57.975Z: Service successfully received telemetry from client.
+2019-03-18T08:08:58.004Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:58.410Z: Service successfully received telemetry from client.
+2019-03-18T08:08:58.471Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:59.307Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:08:59.308Z: Service successfully received telemetry from client.
+2019-03-18T08:08:59.351Z: Command sent, status = MessageEnqueued
+2019-03-18T08:08:59.384Z: Service successfully received telemetry from client.
+2019-03-18T08:08:59.414Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:59.523Z: Service successfully received telemetry from client.
+2019-03-18T08:08:59.553Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:08:59.847Z: Service successfully received telemetry from client.
+2019-03-18T08:08:59.878Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:00.714Z: Service successfully received telemetry from client.
+2019-03-18T08:09:00.745Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:00.961Z: Service successfully received telemetry from client.
+2019-03-18T08:09:00.992Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:02.421Z: Service successfully received telemetry from client.
+2019-03-18T08:09:02.456Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:02.940Z: Service successfully received telemetry from client.
+2019-03-18T08:09:02.979Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:03.363Z: Service successfully received telemetry from client.
+2019-03-18T08:09:03.394Z: Error sending command: DeviceNotFoundError: AMQP Transport: Could not send message
+2019-03-18T08:09:04.368Z: --> Successfully ran MQTT/WS test.
+2019-03-18T08:12:39.633Z: *******************************************
+2019-03-18T08:12:39.633Z: * Executing the Microsoft IOT Trace tool. *
+2019-03-18T08:12:39.633Z: *******************************************
+2019-03-18T08:12:39.634Z: 
+2019-03-18T08:12:39.634Z: --- Executing network tests ---
+2019-03-18T08:12:39.660Z: 
+2019-03-18T08:12:39.661Z: Starting DNS resolution for host 'www.microsoft.com'...
+2019-03-18T08:12:39.672Z: --> Successfully resolved DNS to 2.17.0.227.
+2019-03-18T08:12:39.673Z: "www.microsoft.com" using address: 2.17.0.227
+2019-03-18T08:12:39.673Z: 
+2019-03-18T08:12:39.673Z: Pinging IPV4 address '2.17.0.227'...
+2019-03-18T08:12:39.693Z: --> Successfully pinged 2.17.0.227
+2019-03-18T08:12:39.693Z: 
+2019-03-18T08:12:39.693Z: Sending https request to 'https://www.microsoft.com/'
+2019-03-18T08:12:39.792Z: --> Completed https request
+2019-03-18T08:12:39.792Z: 
+2019-03-18T08:12:39.792Z: --- Executing IOT Hub tests ---
+2019-03-18T08:12:43.033Z: 
+2019-03-18T08:12:43.034Z: Starting AMQP Test...
+2019-03-18T08:12:43.451Z: Client connected, sending message
+2019-03-18T08:12:46.596Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:12:46.926Z: Service successfully received telemetry from client.
+2019-03-18T08:12:47.032Z: Command sent, status = MessageEnqueued
+2019-03-18T08:12:47.381Z: --> Successfully ran AMQP test.
+2019-03-18T08:12:47.381Z: 
+2019-03-18T08:12:47.381Z: Starting AMQP/WS Test...
+2019-03-18T08:12:47.870Z: Client connected, sending message
+2019-03-18T08:12:50.990Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:12:51.210Z: Service successfully received telemetry from client.
+2019-03-18T08:12:51.267Z: Command sent, status = MessageEnqueued
+2019-03-18T08:12:51.470Z: --> Successfully ran AMQP/WS test.
+2019-03-18T08:12:51.488Z: 
+2019-03-18T08:12:51.489Z: Starting HTTPS Test...
+2019-03-18T08:12:51.489Z: Client connected, sending message
+2019-03-18T08:12:54.754Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:12:54.882Z: Service successfully received telemetry from client.
+2019-03-18T08:12:54.940Z: Command sent, status = MessageEnqueued
+2019-03-18T08:12:55.865Z: --> Successfully ran HTTPS test.
+2019-03-18T08:12:55.879Z: 
+2019-03-18T08:12:55.879Z: Starting MQTT Test...
+2019-03-18T08:12:56.243Z: Client connected, sending message
+2019-03-18T08:12:59.363Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:12:59.425Z: Service successfully received telemetry from client.
+2019-03-18T08:12:59.484Z: Command sent, status = MessageEnqueued
+2019-03-18T08:12:59.528Z: --> Successfully ran MQTT test.
+2019-03-18T08:12:59.528Z: 
+2019-03-18T08:12:59.528Z: Starting MQTT/WS Test...
+2019-03-18T08:12:59.931Z: Client connected, sending message
+2019-03-18T08:13:03.015Z: Telemetry sent, status: MessageEnqueued
+2019-03-18T08:13:03.098Z: Service successfully received telemetry from client.
+2019-03-18T08:13:03.162Z: Command sent, status = MessageEnqueued
+2019-03-18T08:13:08.200Z: --> Successfully ran MQTT/WS test.

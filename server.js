@@ -16,6 +16,8 @@ app.use(bodyParser.urlencoded({
   extended: true,
   limit: '1000Kb'
 }));
+
+var uuid = require('uuid');
 /* azure SDK */
 const Protocol = require('azure-iot-device-mqtt').Mqtt;
 const Client = require('azure-iot-device').Client;
@@ -52,6 +54,8 @@ app.post('/messages/:id', function (req, res, next) {
   let payload = JSON.stringify(filteredArray);
 
   var message = new Message(payload);
+  message.messageId = uuid.v4();
+
   dbg(message)
   if (timerPrint)
     console.time('*** sending message took');
